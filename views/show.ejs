@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome to my blog</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Ubuntu&display=swap" rel="stylesheet">
+
+    <style media="screen">
+    body {
+        font-family: 'Lato', sans-serif;
+        font-size: 20px;
+
+      }
+      h1, h2, h3, h4, h5, h6 {
+          font-family: 'Lato', sans-serif;
+
+        }
+        .jumbotron {
+        background-image: url('https://miro.medium.com/max/4800/1*LbImT-q_JYGXWQ8G0ZkWlA.jpeg');
+        background-size: cover;
+        opacity: 0.7;
+        }
+
+    </style>
+
+</head>
+<body background='https://img5.goodfon.com/original/3840x2160/f/a0/peizazh-low-poly-kholmy-art-minimalizm-gory.jpg'>
+
+
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Users Data</h1>
+      <h4>Source: Snowflake</h4>
+      <table class="table table-dark table-striped table-bordered table-hover">
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Roll No</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% for(var i=0; i < name.length; i++) { %>
+         <tr>
+           <td><%= name[i] %></td>
+           <td><%= rollno[i] %></td>
+         </tr>
+         <% } %>
+
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+
+</body>
+</html>
