@@ -1,4 +1,4 @@
-# ADVANCED-DATABASE-SYSTEM
+# Data Migration System Tool
 Aim: Create Change Data Capture scenario for streaming data changes to various destination DB nodes as sink.
 
 As its name suggests, Change Data Capture (CDC) techniques are used to identify changes. CDC can be the basis to synchronize another system with the same incremental changes, or to store an audit trail of changes.
